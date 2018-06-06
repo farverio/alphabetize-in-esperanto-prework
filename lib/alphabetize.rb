@@ -1,5 +1,3 @@
 def alphabetize(arr)
-  output_arr = []
-  
-  
+  arr.sort_by! {|word|
 end
