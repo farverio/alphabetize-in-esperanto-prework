@@ -1,3 +1,4 @@
 def alphabetize(arr)
-  arr.sort_by! {|word| word}
+  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.sort_by! {|word| ESPERANTO_ALPHABET}
 end
